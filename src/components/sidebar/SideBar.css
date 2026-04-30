@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 12px;
     background-color: white;
-    width: 350px;
+    width: 400px; 
     height: 100%;
     padding: 17px 12px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
@@ -12,15 +12,17 @@
     top: 100px;
     padding: 12px 7px;
     border-radius: 7px;
+    z-index: 2;
 }
 .main_sidebar a{
     padding: 12px 7px;
-    border-radius: 12px;
+    border-radius: 9px;
     border-bottom: 1px solid #b7d4ff74;
+    transition: .4s ease;
 
 }
 .main_sidebar a:hover{
-    transition: .4s ease;
+    
     background-color: #B7D4FF;
 
 }
